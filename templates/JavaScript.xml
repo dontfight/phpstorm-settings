@@ -1,0 +1,7 @@
+<templateSet group="JavaScript">
+  <template name="_t" value="{{ $SELECTION$ | translate}}" description="VueJS temaple translation" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
