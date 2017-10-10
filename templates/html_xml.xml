@@ -1,7 +1,7 @@
 <templateSet group="html/xml">
-  <template name="_t" value="{{ $SELECTION$ | translate}}" description="VueJS temaple translation" toReformat="true" toShortenFQNames="true">
+  <template name="_t" value="{{ '$SELECTION$' | translate}}" description="VueJS temaple translation" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
 </templateSet>
